@@ -3,6 +3,10 @@
 </script>
 
 <style>
+
+  :global(a) {
+    font-family: 'La Belle Aurore', cursive;
+  }
 	h1, figure, p {
 		text-align: center;
 		margin: 0 auto;

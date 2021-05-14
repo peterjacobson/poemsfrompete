@@ -26,9 +26,21 @@
 		so we have to use the :global(...) modifier to target
 		all elements inside .content
 	*/
+  h1 {
+    font-size: 4em;
+  }
 	.content :global(h2) {
 		font-size: 1.4em;
 		font-weight: 500;
+	}
+	.content :global(quote) {
+    display: block;
+    margin-left: 10px;
+	}
+	.content :global(p) {
+    font-size: 1.6em;
+    line-height: 0.9em;
+    margin-bottom: 30px;
 	}
 
 	.content :global(pre) {
@@ -61,5 +73,5 @@
 <h1>{poem.title}</h1>
 
 <div class="content">
-	{@html poem.html.replaceAll('_', '</p><p>')}
+	{@html poem.html.replaceAll('\n', '</p><p>')}
 </div>

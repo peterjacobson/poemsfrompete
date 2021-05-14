@@ -43,8 +43,10 @@
 
 	a {
 		text-decoration: none;
-		padding: 1em 0.5em;
+		padding: 1em 0.5em 0.5em;
 		display: block;
+    font-size: 2em;
+    line-height: 0.6em;
 	}
 </style>
 
@@ -55,6 +57,6 @@
 
 		<!-- for the blog link, we're using rel=prefetch so that Sapper prefetches
 		     the blog data when we hover over the link or tap it on a touchscreen -->
-		<li><a rel=prefetch aria-current="{segment === 'poetry-home' ? 'page' : undefined}" href="/poetry-home">Pete's Poetry Kainga</a></li>
+		<li><a rel=prefetch aria-current="{segment === 'poetry-home' ? 'page' : undefined}" href="/poetry-home">Poems from Pete</a></li>
 	</ul>
 </nav>

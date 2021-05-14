@@ -11,6 +11,9 @@
 </script>
 
 <style>
+  a {
+    font-size: 1.8em;
+  }
 </style>
 
 <svelte:head>
@@ -22,5 +25,5 @@
       tell Sapper to load the data for the page as soon as
       the user hovers over the link or taps it, instead of
       waiting for the 'click' event -->
-  <a rel="prefetch" href="poetry-home/{poem.slug}">{poem.title}</a>
+  <p><a rel="prefetch" href="poetry-home/{poem.slug}">{poem.title}</a></p>
 {/each}
