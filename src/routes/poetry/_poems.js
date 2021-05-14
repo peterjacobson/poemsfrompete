@@ -40,8 +40,7 @@ const poems = [
 		title: 'Black sea',
 		slug: 'black-sea',
 		html: `
-      <p>
-        <iframe src="https://open.spotify.com/embed/track/3jGui0zkOnfTvfE6cvz1Q2" width="80" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media" style="height:80px;width:80px;background-color:black;border-radius:500px;"></iframe>
+    <iframe src="https://open.spotify.com/embed/track/3jGui0zkOnfTvfE6cvz1Q2" width="80" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media" style="height:80px;width:80px;background-color:black;border-radius:500px;margin-top: -30px;"></iframe><audio controls><source src="https://docs.google.com/uc?export=download&id=1J92CDxTaqSFbe1N-R_FDPJj7F4Yv5iui"></audio><p>
         Aldous harding
         You seduced me
         into the black southern sunset sea
@@ -49,10 +48,9 @@ const poems = [
         on the barnacled rocks
         surrounded by swirling waters as the slow tide drops
         ocean rise
-        hypnotised
+        hypnotise
         sadness and beauty
         you soften my eyes
-        and ears
         sighs of the ocean
         wash around me
         I slip into salty stillness
@@ -63,8 +61,7 @@ const poems = [
         soft sea sing to me
         so
         Aldous,
-        Here is your princess
-        bay
+        Here is your princess (bay)
         and there is your horizon
         A dark dusking straight
         reaches out
@@ -76,7 +73,7 @@ const poems = [
     title: 'Yes Bandits',
     slug: 'yes-bandits',
     html: `
-      <p>
+    <audio controls><source src="https://docs.google.com/uc?export=download&id=1C__RJaUboPOL72vzSsD9rTVXMQI6LXpD"></audio><p>
         Yes Bandits
         dark and beautiful
         there were four
@@ -105,7 +102,7 @@ const poems = [
     title: 'Mixing of rivers',
     slug: 'mixing-of-rivers',
     html: `
-      <p>
+    <audio controls><source src="https://docs.google.com/uc?export=download&id=1BEISbB8EhuF9f0qGrZttV2EtkdgSAbgP"></audio><p>
       Oh my fine and long haired friend
       Don’t ask why, or how it ends
       just hold on and open wide
@@ -225,7 +222,7 @@ const poems = [
 		title: 'Underheart',
 		slug: 'underheart',
 		html: `
-      <p>
+    <audio controls><source src="https://docs.google.com/uc?export=download&id=1CUZyjlKQihST6avuvCMybt4ikbY7M3qv"></audio><p>
         Shaking, shifting underfoot,
         underheart
         I know it will
@@ -264,7 +261,7 @@ const poems = [
 		title: 'Daybreak sea',
 		slug: 'daybreak-sea',
 		html: `
-      <p>
+    <audio controls><source src="https://docs.google.com/uc?export=download&id=1Na-HLMd-OeQR7J_8MW0qGyH9u_JmKqwb"></audio><p>
       Oh my beautiful
       Daybreak sea
       I’ve know you this morning
