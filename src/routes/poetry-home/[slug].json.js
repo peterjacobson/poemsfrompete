@@ -1,8 +1,8 @@
-import posts from './_posts.js';
+import poems from './_poems.js';
 
 const lookup = new Map();
-posts.forEach(post => {
-	lookup.set(post.slug, JSON.stringify(post));
+poems.forEach(poem => {
+	lookup.set(poem.slug, JSON.stringify(poem));
 });
 
 export function get(req, res, next) {
