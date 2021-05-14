@@ -17,7 +17,7 @@
 </style>
 
 <svelte:head>
-	<title>Pete's Poetry Kainga</title>
+	<title>Poems from Pete</title>
 </svelte:head>
 
 {#each poems as poem}
