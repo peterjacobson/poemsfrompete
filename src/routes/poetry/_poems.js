@@ -73,7 +73,7 @@ const poems = [
     title: 'Yes Bandits',
     slug: 'yes-bandits',
     html: `
-    <audio controls><source rel="external" src="https://docs.google.com/uc?export=download&id=1C__RJaUboPOL72vzSsD9rTVXMQI6LXpD"></audio><p>
+    <p>
         Yes Bandits
         dark and beautiful
         there were four
