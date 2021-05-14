@@ -4,7 +4,7 @@
 
 <style>
 	nav {
-		border-bottom: 1px solid rgba(255,62,0,0.1);
+		/* border-bottom: 1px solid rgba(255,62,0,0.1); */
 		font-weight: 300;
 		padding: 0 1em;
 	}
@@ -42,21 +42,20 @@
 	} */
 
 	a {
-		text-decoration: none;
-		padding: 1em 0.5em 0.5em;
+		/* text-decoration: none; */
+		padding: 1.2em 0.5em 0.5em;
 		display: block;
-    font-size: 2em;
+    font-size: 2.8em;
     line-height: 0.6em;
 	}
 </style>
 
 <nav>
-	<ul>
-		<!-- <li><a aria-current="{segment === undefined ? 'page' : undefined}" href=".">home</a></li>
-		<li><a aria-current="{segment === 'about' ? 'page' : undefined}" href="about">about</a></li> -->
-
-		<!-- for the blog link, we're using rel=prefetch so that Sapper prefetches
-		     the blog data when we hover over the link or tap it on a touchscreen -->
-		<li><a rel=prefetch aria-current="{segment === 'poetry' ? 'page' : undefined}" href="/">Poems from Pete</a></li>
-	</ul>
+  
+	<ul class="nav-links">
+    <!-- for the blog link, we're using rel=prefetch so that Sapper prefetches
+      the blog data when we hover over the link or tap it on a touchscreen -->
+    <li><a rel=prefetch style="{segment === undefined ? 'text-decoration:none;' : ''}" aria-current="{segment === undefined ? 'page' : undefined}" href="/">Poems from Pete</a></li>
+    <!-- <li><a aria-current="{segment === 'about' ? 'page' : undefined}" href="about">about</a></li>  -->
+    </ul>
 </nav>
