@@ -219,45 +219,6 @@ const poems = [
     `
   },
 	{
-		title: 'Underheart',
-		slug: 'underheart',
-		html: `
-    <audio controls><source rel="external" src="https://docs.google.com/uc?export=download&id=1CUZyjlKQihST6avuvCMybt4ikbY7M3qv"></audio><p>
-        Shaking, shifting underfoot,
-        underheart
-        I know it will
-        I knew it would
-         
-        The stages of grief
-        Denial.
-        Not wanting to understand 
-        or see the changing seasons.
-        For a long time truly not knowing. 
-        Do I know now?
-        Bargaining.
-        Tried. Enough? 
-        A fissure, or the shadow of a passing cloud?
-        Anger.
-        Discovered, acknowledged, expressed, heard. 
-        Allowing
-        Sadness. Felt. Some
-        a well shallow dipped
-        Acceptance.
-        A journey started.
-         
-        Where is the shifting light now?
-        Where is the water clear?
-        What is this new now?
-        Where is my new here?
-         
-        Shaking, shifting underfoot,
-        underheart
-        I know it will
-        I knew it would
-      </p>
-    `
-	},
-	{
 		title: 'Daybreak sea',
 		slug: 'daybreak-sea',
 		html: `
