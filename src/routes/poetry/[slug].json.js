@@ -1,10 +1,14 @@
 import poems from './_poems.js';
-
+console.log("poems: ", poems[0].title);
+const poemsWithSlugs = poems.map((poem) => {
+  const slug = poem.title?.toLowerCase()?.replaceAll(/\s/g, '-');
+  return {...poem, slug}
+})
+console.log("poemsWithSlugs: ", poemsWithSlugs[0].slug);
 
 const lookup = new Map();
-poems.forEach(poem => {
-  const slug = poem.title?.replaceAll(/\s/g, '-');
-	lookup.set(slug, JSON.stringify(poem));
+poemsWithSlugs.forEach(poem => {
+	lookup.set(poem.slug, JSON.stringify(poem));
 });
 
 export function get(req, res, next) {
