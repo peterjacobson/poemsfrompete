@@ -25,5 +25,5 @@
       tell Sapper to load the data for the page as soon as
       the user hovers over the link or taps it, instead of
       waiting for the 'click' event -->
-  <p><a rel="prefetch" href="poetry/{poem.slug}">{poem.title}</a></p>
+  <p><a rel="prefetch" href="poetry/{poem.title.toLowerCase().replaceAll(' ', '-')}">{poem.title}</a></p>
 {/each}

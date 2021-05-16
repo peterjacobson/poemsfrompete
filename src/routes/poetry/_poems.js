@@ -9,35 +9,53 @@
 
 const poems = [
 	{
-		title: 'Gathered by mountains',
-		slug: 'gathered-by-mountains',
+		title: 'Dropping in',
 		html: `
+      I look into your eyes
+      and you're right here
+      with me
+
+      I ask you
+      How am I to you now?
+      I am looking for landmarks
+      a map to my love 
+
+      Only us
+      all of me
+      is with you
       
-        Rumi said
-        <quote>Goodbyes are only for those who love with their eyes<br>Because for those who love with heart and soul<br>there is no such thing as separation.</quote>
-        My messenger scrolling 
-        remembers meetings, touchings
-        reminds
-        I am a cloud gathered by mountains
-        formed and shaped and guided
-        drawn by highs 
-        blown by lows
-        I am trailing thousands of threads
-        thousands of translucent threads
-        strands
-        ropes
-        reaching into homes,
-        islands,
-        storms
-        touching valleys
-        hearts
-        I pass through tempests
-        and under the sun
+      We are held
+      by fire and friends
+      sea murmurs
+      stars bend
+    `
+	},
+	{
+		title: 'Gathered by mountains',
+		html: `
+      Rumi said
+      <quote>Goodbyes are only for those who love with their eyes<br>Because for those who love with heart and soul<br>there is no such thing as separation.</quote>
+
+      My messenger scrolling 
+      remembers meetings, touchings
+      reminds
+      I am a cloud gathered by mountains
+      formed and shaped and guided
+      I am trailing thousands 
+      of translucent threads
+      strands
+      ropes
+      reaching into homes,
+      islands,
+      storms
+      touching hands,
+      hearts
+      I pass through tempests
+      and under the sun
     `
 	},
 	{
 		title: 'Black sea',
-		slug: 'black-sea',
 		html: `
       <iframe src="https://open.spotify.com/embed/track/3jGui0zkOnfTvfE6cvz1Q2" width="80" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media" style="height:80px;width:80px;background-color:black;border-radius:500px;margin-top: -30px;"></iframe><audio controls><source rel="external" src="https://docs.google.com/uc?export=download&id=1J92CDxTaqSFbe1N-R_FDPJj7F4Yv5iui"></audio>
       Aldous harding
@@ -70,7 +88,6 @@ const poems = [
 	},
   {
     title: 'Yes Bandits',
-    slug: 'yes-bandits',
     html: `
         Yes Bandits
         dark and beautiful
@@ -97,9 +114,8 @@ const poems = [
   },
   {
     title: 'Mixing of rivers',
-    slug: 'mixing-of-rivers',
-    html: 
-    `<audio controls><source rel="external" src="https://docs.google.com/uc?export=download&id=1BEISbB8EhuF9f0qGrZttV2EtkdgSAbgP"></audio>
+    html: `
+      <audio controls><source rel="external" src="https://docs.google.com/uc?export=download&id=1BEISbB8EhuF9f0qGrZttV2EtkdgSAbgP"></audio>
       Oh my fine and long haired friend
       Don’t ask why, or how it ends
       just hold on and open wide
@@ -215,9 +231,8 @@ const poems = [
   },
 	{
 		title: 'Daybreak sea',
-		slug: 'daybreak-sea',
 		html: `
-    <audio controls><source rel="external" src="https://docs.google.com/uc?export=download&id=1Na-HLMd-OeQR7J_8MW0qGyH9u_JmKqwb"></audio>
+      <audio controls><source rel="external" src="https://docs.google.com/uc?export=download&id=1Na-HLMd-OeQR7J_8MW0qGyH9u_JmKqwb"></audio>
       Oh my beautiful
       Daybreak sea
       I’ve know you this morning

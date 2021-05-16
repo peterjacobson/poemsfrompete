@@ -2,7 +2,7 @@ import poems from './_poems.js';
 
 const lookup = new Map();
 poems.forEach(poem => {
-	lookup.set(poem.slug, JSON.stringify(poem));
+	lookup.set(poem.title.toLowerCase().replaceAll(' ', '-'), JSON.stringify(poem));
 });
 
 export function get(req, res, next) {
