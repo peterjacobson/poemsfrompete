@@ -12,7 +12,7 @@ const poems = [
 		title: 'Gathered by mountains',
 		slug: 'gathered-by-mountains',
 		html: `
-      <p>
+      
         Rumi said
         <quote>Goodbyes are only for those who love with their eyes<br>Because for those who love with heart and soul<br>there is no such thing as separation.</quote>
         My messenger scrolling 
@@ -33,47 +33,45 @@ const poems = [
         hearts
         I pass through tempests
         and under the sun
-     </p>
     `
 	},
 	{
 		title: 'Black sea',
 		slug: 'black-sea',
 		html: `
-    <iframe src="https://open.spotify.com/embed/track/3jGui0zkOnfTvfE6cvz1Q2" width="80" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media" style="height:80px;width:80px;background-color:black;border-radius:500px;margin-top: -30px;"></iframe><audio controls><source rel="external" src="https://docs.google.com/uc?export=download&id=1J92CDxTaqSFbe1N-R_FDPJj7F4Yv5iui"></audio><p>
-        Aldous harding
-        You seduced me
-        into the black southern sunset sea
-        out on the point
-        on the barnacled rocks
-        surrounded by swirling waters as the slow tide drops
-        ocean rise
-        hypnotise
-        sadness and beauty
-        you soften my eyes
-        sighs of the ocean
-        wash around me
-        I slip into salty stillness
-        so smooth and inky 
-         
-        Seaweed seaweed
-        caress me down
-        soft sea sing to me
-        so
-        Aldous,
-        Here is your princess (bay)
-        and there is your horizon
-        A dark dusking straight
-        reaches out
-        to a disappearing island
-      </p>
+      <iframe src="https://open.spotify.com/embed/track/3jGui0zkOnfTvfE6cvz1Q2" width="80" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media" style="height:80px;width:80px;background-color:black;border-radius:500px;margin-top: -30px;"></iframe><audio controls><source rel="external" src="https://docs.google.com/uc?export=download&id=1J92CDxTaqSFbe1N-R_FDPJj7F4Yv5iui"></audio>
+      Aldous harding
+      You seduced me
+      into the black southern sunset sea
+      out on the point
+      on the barnacled rocks
+      surrounded by swirling waters 
+      as the slow tide drops
+      ocean rise
+      hypnotise
+      sadness and beauty
+      you soften my eyes
+      sighs of the ocean
+      wash around me
+      I slip into salty stillness
+      so smooth and inky 
+       
+      Seaweed seaweed
+      caress me down
+      soft sea sing to me
+      so
+      Aldous,
+      Here is your princess (bay)
+      and there is your horizon
+      A dark dusking straight
+      reaches out
+      to a disappearing island
     `
 	},
   {
     title: 'Yes Bandits',
     slug: 'yes-bandits',
     html: `
-    <p>
         Yes Bandits
         dark and beautiful
         there were four
@@ -95,14 +93,13 @@ const poems = [
         the fourth stole my plans
         and left me
         sleeping dreams      
-      </p>
     `
   },
   {
     title: 'Mixing of rivers',
     slug: 'mixing-of-rivers',
-    html: `
-    <audio controls><source rel="external" src="https://docs.google.com/uc?export=download&id=1BEISbB8EhuF9f0qGrZttV2EtkdgSAbgP"></audio><p>
+    html: 
+    `<audio controls><source rel="external" src="https://docs.google.com/uc?export=download&id=1BEISbB8EhuF9f0qGrZttV2EtkdgSAbgP"></audio>
       Oh my fine and long haired friend
       Don’t ask why, or how it ends
       just hold on and open wide
@@ -116,8 +113,8 @@ const poems = [
        
       Feel the love
       And feel the pain
-      Feel the tension
-      Feel the strain
+      Feel the moon
+      Waxing and then wane
        
       Feel the ocean
       Between your toes
@@ -154,7 +151,7 @@ const poems = [
       And to taste and to tinder
       These once green and messy
       Now smooth driftwood timbers
-      With their old morepork stories
+      With their old ruru stories
       In their old wooden fingers
        
       Is it ready to roar?
@@ -190,7 +187,7 @@ const poems = [
        
       For the love of the firm ground
       Under my feet
-      For the peaceful acceptance of
+      For the peaceful holding of
       My internal retreat
        
       For our mixing of breath
@@ -214,15 +211,13 @@ const poems = [
        
       I’d like to share
       Another day
-      With you.     
-      </p>
-    `
+      With you.`     
   },
 	{
 		title: 'Daybreak sea',
 		slug: 'daybreak-sea',
 		html: `
-    <audio controls><source rel="external" src="https://docs.google.com/uc?export=download&id=1Na-HLMd-OeQR7J_8MW0qGyH9u_JmKqwb"></audio><p>
+    <audio controls><source rel="external" src="https://docs.google.com/uc?export=download&id=1Na-HLMd-OeQR7J_8MW0qGyH9u_JmKqwb"></audio>
       Oh my beautiful
       Daybreak sea
       I’ve know you this morning
@@ -253,7 +248,6 @@ const poems = [
       Thank you, my darling
       my beautiful daybreak sea.
       
-      </p>
     `
 	},
 ];
