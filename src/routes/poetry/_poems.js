@@ -10,6 +10,7 @@
 const poems = [
 	{
 		title: 'Dropping in',
+    slug: 'dropping-in',
 		html: `
       I look into your eyes
       and you're right here
@@ -32,6 +33,7 @@ const poems = [
 	},
 	{
 		title: 'Gathered by mountains',
+    slug: 'gathered-by-mountains',
 		html: `
       Rumi said
       <quote>Goodbyes are only for those who love with their eyes<br>Because for those who love with heart and soul<br>there is no such thing as separation.</quote>
@@ -56,6 +58,7 @@ const poems = [
 	},
 	{
 		title: 'Black sea',
+    slug: 'black-sea',
 		html: `
       <iframe src="https://open.spotify.com/embed/track/3jGui0zkOnfTvfE6cvz1Q2" width="80" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media" style="height:80px;width:80px;background-color:black;border-radius:500px;margin-top: -30px;"></iframe><audio controls><source rel="external" src="https://docs.google.com/uc?export=download&id=1J92CDxTaqSFbe1N-R_FDPJj7F4Yv5iui"></audio>
       Aldous harding
@@ -88,6 +91,7 @@ const poems = [
 	},
   {
     title: 'Yes Bandits',
+    slug: 'yes-bandits',
     html: `
         Yes Bandits
         dark and beautiful
@@ -114,6 +118,7 @@ const poems = [
   },
   {
     title: 'Mixing of rivers',
+    slug: 'mixing-of-rivers',
     html: `
       <audio controls><source rel="external" src="https://docs.google.com/uc?export=download&id=1BEISbB8EhuF9f0qGrZttV2EtkdgSAbgP"></audio>
       Oh my fine and long haired friend
@@ -231,6 +236,7 @@ const poems = [
   },
 	{
 		title: 'Daybreak sea',
+    slug: 'daybreak-sea',
 		html: `
       <audio controls><source rel="external" src="https://docs.google.com/uc?export=download&id=1Na-HLMd-OeQR7J_8MW0qGyH9u_JmKqwb"></audio>
       Oh my beautiful
@@ -262,7 +268,6 @@ const poems = [
       of this strong body
       Thank you, my darling
       my beautiful daybreak sea.
-      
     `
 	},
 ];
