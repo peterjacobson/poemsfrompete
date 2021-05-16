@@ -73,5 +73,5 @@
 <h1>{poem.title}</h1>
 
 <div class="content">
-	{@html poem.html.replaceAll(/\n\s*\n/g, '</p><br><p>').replaceAll('\n', '</p><p>')}
+	{@html `<p>${poem.html.replaceAll(/\n\s*\n/g, '</p><br><p>').replaceAll('\n', '</p><p>')}</p>`}
 </div>
