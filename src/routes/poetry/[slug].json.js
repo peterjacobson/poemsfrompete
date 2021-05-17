@@ -1,8 +1,8 @@
 import poems from './_poems.js';
 
 const lookup = new Map();
-poems.forEach(poem => {
-	lookup.set(poem.slug, JSON.stringify(poem));
+poemsWithSlugs.forEach(poem => {
+	lookup.set(poem.title?.toLowerCase()?.replaceAll(/\s/g, '-'), JSON.stringify(poem));
 });
 
 export function get(req, res, next) {
