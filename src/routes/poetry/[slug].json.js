@@ -1,7 +1,7 @@
 import poems from './_poems.js';
 
 const lookup = new Map();
-poemsWithSlugs.forEach(poem => {
+poems.forEach(poem => {
 	lookup.set(poem.title?.toLowerCase()?.replaceAll(/\s/g, '-'), JSON.stringify(poem));
 });
 
