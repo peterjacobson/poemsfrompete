@@ -1,4 +1,4 @@
-import poems from './_poems.js';
+import poems from '../../_poems.js';
 
 const lookup = new Map();
 poems.forEach(poem => {
