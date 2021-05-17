@@ -8,33 +8,34 @@
 // underscore tells Sapper not to do that.
 
 const poems = [
-	{
-		title: 'Dropping in',
-		html: `
-      I look into your eyes
-      and you're right here
-      with me
+{
+title: 'Dropping in',
+html: `
 
-      I ask you
-      How am I to you now?
-      I am looking for landmarks
-      a map to my love 
+I look into your eyes
+and you're right here
+with me
 
-      Only us
-	Remember this
-      all of me
-      is with you
-      
-      We are held
-      by fire and friends
+I ask you
+How am I to you now?
+I am looking for landmarks
+a map to my love 
 
-      sea murmurs
-      stars bend
-    `
-	},
-	{
-		title: 'Gathered by mountains',
-		html: `
+Only us
+Remember this
+all of me
+is with you
+
+We are held
+by fire and friends
+
+sea murmurs
+stars bend
+
+`},
+{
+	title: 'Gathered by mountains',
+	html: `
       Rumi said
       <quote>Goodbyes are only for those who love with their eyes<br>Because for those who love with heart and soul<br>there is no such thing as separation.</quote>
 
