@@ -1,4 +1,4 @@
-import poems from './_poems.js';
+import poems from './_POEMS.js';
 
 const contents = JSON.stringify(poems.map(poem => {
 	return {
