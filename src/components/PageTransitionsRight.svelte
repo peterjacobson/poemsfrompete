@@ -1,10 +1,10 @@
 <script>
-  import { fly } from 'svelte/transition';
+  // import { fade } from 'svelte/transition';
 </script>
 
 <div
-  in:fly="{{ x: 200, duration: 650, delay: 550 }}"
-  out:fly="{{ x: 200, duration: 650 }}" 
+  in:fade="{{ x: 0, duration: 650, delay: 550 }}"
+  out:fly="{{ x: 0, duration: 650 }}" 
   >
   <slot/>
 </div>

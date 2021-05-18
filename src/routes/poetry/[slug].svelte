@@ -1,5 +1,5 @@
 <script context="module">
-  import PageTransitionsRight from '../../components/PageTransitionsRight.svelte';
+  import { fade } from 'svelte/transition'
 
 	export async function preload({ params }) {
 		// the `slug` parameter is available because
@@ -72,13 +72,9 @@
 	<title>{poem.title}</title>
 </svelte:head>
 
-<PageTransitionsRight>
-  <main>
-
-    <h1>{poem.title}</h1>
-    
-    <div class="content">
-      {@html `<p>${poem.html.replaceAll(/\n\s*\n/g, '</p><br><p>').replaceAll('\n', '</p><p>')}</p>`}
-    </div>
-  </main>
-</PageTransitionsRight>
+<main in:fade>
+  <h1>{poem.title}</h1>
+  <div class="content">
+    {@html `<p>${poem.html.replaceAll(/\n\s*\n/g, '</p><br><p>').replaceAll('\n', '</p><p>')}</p>`}
+  </div>
+</main>
