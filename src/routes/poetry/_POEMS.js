@@ -285,11 +285,10 @@ and my arms are free-range eggs
 that Nat found hidden in the grass
  
 My blood is salad dressing
-lemons thrown over the fence 
-by the kids playing next door
-Yep, we're made of this land
+lemons thrown by the kids next door
+We're made of this land
 rain, sun, soil and sand
-from our hair through to our feet on the floor
+from our hair to our feet on the floor
 `},
 {title: 'Raglan with Chloe',
 html: `
