@@ -255,6 +255,136 @@ of this strong body
 Thank you, my darling
 my beautiful daybreak sea.
 `},
+{title: 'Assembled in Aotearoa',
+html: `
+<a href="https://medium.com/a-microbiome-scientist-at-large/science-monday-if-our-cells-replace-themselves-why-do-we-have-lifelong-scars-deb77b2ab5c0">On average, the cells that comprise our body are re-grown every seven years</a>
+
+My hands are self-sown rocket
+from Beka's garden bed
+My heart is a navel orange
+from Hastings, behind the collapsed old timber shed
+ 
+My puku is a kumara
+from the fields up Kapiti Coast
+My eyes are two fine carrots
+Ohakune's favourite boast
+ 
+Sure these peanut thumbs came
+from across the Tasman Sea
+and I'm pretty sure these banana knees
+weren't grown locally
+ 
+But my legs are the rangy ram
+that butted dad between his eyes
+and my mind is all feijoa
+grown sweet with spring sunrise
+ 
+My toes are ten tomatos
+from the fragrant vines in our glass house
+and my arms are free-range eggs
+that Nat found hidden in the grass
+ 
+My blood is salad dressing
+lemons thrown over the fence 
+by the kids playing next door
+Yep, we're made of this land
+rain, sun, soil and sand
+from our hair through to our feet on the floor
+`},
+{title: 'Raglan with Chloe',
+html: `
+Small waves
+on smooth wet sand
+pipe breaking fast
+as their slop slips past
+
+The sea here is smoother than elsewhere
+Softer
+A distant wheen of sunset bagpipes
+The sea stills us
+
+It's been a long year
+I'm glad to be back here
+This time with deeper friendship
+a lot more love
+a lot less fear
+
+a lot more care
+and gentleness
+as we slowly prepare
+for twelve more mad city months
+
+I can't flourish alone
+I need friendship and company
+I need people to call home
+Thank you so much for taking this journey with me
+`},
+{title: 'Tears come',
+html: `
+This morning I woke in fear
+In the dream, I am in my home, far above Te Whanganui-a-Tara.
+I look out the window at the blustered sunny sea
+No whales today
+
+I sit with an older man, ponytailed
+He speaks wisdom to my heart
+We carry the same knives
+
+“Get out of bed, we’re moving the sheep”
+The flock follows Dad out of the paddock, but one ewe splits off. 
+Dad and I chase her, but she is wild and mad alone now. 
+I am close to her. 
+
+We both pause
+looking at each other.
+
+We both hear the flock
+
+“maaa”
+
+She turns and walks steadily,
+we are following their voices
+past the manuka creek,
+out the gate,
+across the stream
+
+Later, I am alone on the farm.
+I sit at the round macrocarpa dining table,
+now scratched and marked like a school desk
+ten thousand days with my family
+recorded on it’s surface
+
+I look out the big window
+myriad greens in the afternoon sun
+pond, filled with reeds and long grass
+apple tree, cherry and rose
+fence, paddock, the poisoned tan poplar tips
+above the kowhai and mahoe lining the stream
+behind them the bushed valley
+and manuka ridge
+whipped cream clouds 
+and a baby blue sky
+
+Serene Jones and Krista Tippet speak to me of grace
+
+“Repentance — it’s a powerful word, as you said, and it really means, to walk in a different direction. It means to do it differently.“
+
+A tui bomb-sweep bomb-sweeps across the valley
+
+“I feel it like an earthquake underneath us — it feels to me like we’re in the middle of the Reformation. But people in the middle of the Reformation didn’t know it. It was only afterwards.”
+
+a swallow swoops close to the window
+
+“But what they knew in the moment, which is what we know, is, everything is falling apart.
+Everything is falling apart, and something new is emerging.“
+
+My body softens
+I can feel the anger and confusion inside
+transform into a sea of sadness
+that gently fills me
+
+tears come
+`},
 ];
 
 poems.forEach(poem => {
