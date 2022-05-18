@@ -8,8 +8,8 @@
   .pagewrapper {
     min-height: 100vh;
     height: 100%;
-    background-color: #272C35;
-    color: #ccc;
+    background-color: #fafafa;
+    color: #383A43;
     display: flex;
     flex-direction: column;
     align-items: center;
