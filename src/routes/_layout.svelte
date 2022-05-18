@@ -25,7 +25,7 @@
 
   /* Dark mode */
   @media (prefers-color-scheme: dark) {
-      div {
+      .pagewrapper {
           background-color: #272C35;
           color: #ccc;
           font-size: 1.1rem
