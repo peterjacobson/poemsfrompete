@@ -68,7 +68,7 @@ sadness and beauty
 you soften my eyes
 sighs of the ocean
 wash around me
-I slip into salty stillness
+I slip into stillness
 so smooth and inky 
  
 Seaweed seaweed
@@ -78,7 +78,7 @@ so
 Aldous,
 Here is your princess (bay)
 and there is your horizon
-A dark dusking straight
+A dark dusking strait
 reaches out
 to a disappearing island
 `},
