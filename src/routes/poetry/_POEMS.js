@@ -333,7 +333,7 @@ I am close to her.
 We both pause
 looking at each other.
 
-We both hear the flock
+We both hear the flock in the distance
 
 “maaa”
 
