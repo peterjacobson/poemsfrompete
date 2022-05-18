@@ -30,9 +30,19 @@
 	     the current page has one -->
 	%sapper.head%
 </head>
+<style>
+    /* Dark mode */
+  @media (prefers-color-scheme: dark) {
+      body {
+          background-color: #272C35;
+          /* text-shadow: 2px 2px black; */
+      }
+  }
+</style>
 <body>
 	<!-- The application will be rendered inside this element,
 	     because `src/client.js` references it -->
 	<div id="sapper">%sapper.html%</div>
 </body>
 </html>
+

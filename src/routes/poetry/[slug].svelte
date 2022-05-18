@@ -30,7 +30,12 @@
 	*/
   h1 {
     font-size: 4em;
+    margin-top: 60px;
   }
+  .content {
+    margin-bottom: 200px;
+  }
+
 	.content :global(h2) {
 		font-size: 1.4em;
 		font-weight: 500;
@@ -72,9 +77,9 @@
 	<title>{poem.title}</title>
 </svelte:head>
 
-<main in:fade>
+<div in:fade>
   <h1>{poem.title}</h1>
   <div class="content">
     {@html `<p>${poem.html.replaceAll(/\n\s*\n/g, '</p><br><p>').replaceAll('\n', '</p><p>')}</p>`}
   </div>
-</main>
+</div>

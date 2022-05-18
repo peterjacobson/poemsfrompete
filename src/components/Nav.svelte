@@ -6,7 +6,6 @@
 	nav {
 		/* border-bottom: 1px solid rgba(255,62,0,0.1); */
 		font-weight: 300;
-		padding: 0 1em;
 	}
 
 	ul {
@@ -22,7 +21,8 @@
 	}
 
 	li {
-		display: block;
+		display: flex;
+    justify-items: center;
 		float: left;
 	}
 
@@ -43,7 +43,7 @@
 
 	a {
 		/* text-decoration: none; */
-		padding: 1.2em 0.5em 0.5em;
+		padding: 1.2em 0em 0.5em;
 		display: block;
     font-size: 2.8em;
     line-height: 0.6em;
@@ -55,7 +55,20 @@
 	<ul class="nav-links">
     <!-- for the blog link, we're using rel=prefetch so that Sapper prefetches
       the blog data when we hover over the link or tap it on a touchscreen -->
-    <li><a rel=prefetch style="{segment === undefined ? 'text-decoration:none;' : ''}" aria-current="{segment === undefined ? 'page' : undefined}" href="/">Poems from Pete</a></li>
+    <li>
+      <a rel=prefetch style="{segment === undefined ? 'text-decoration:none;' : ''}" aria-current="{segment === undefined ? 'page' : undefined}" href="/">
+        Poems from Pete
+      </a>
+    </li>
     <!-- <li><a aria-current="{segment === 'about' ? 'page' : undefined}" href="about">about</a></li>  -->
-    </ul>
+  </ul>
+  ☀
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  ☾ 
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  ☀
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  ☾ 
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  ☀
 </nav>
