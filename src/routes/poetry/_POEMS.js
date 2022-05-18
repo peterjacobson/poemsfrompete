@@ -136,7 +136,7 @@ Hear the made-up tune
 We’re whistling
  
 See the island
-Under it’s clouds
+Under its clouds
 Over the sea
 Under the stars
  
@@ -274,10 +274,10 @@ from across the Tasman Sea
 and I'm pretty sure these banana knees
 weren't grown locally
  
-But my legs are the rangy ram
+But my legs are rangy ram
 that butted dad between his eyes
 and my mind is all feijoa
-grown sweet with spring sunrise
+grown sweet with autumn sunrise
  
 My toes are ten tomatos
 from the fragrant vines in our glass house
@@ -285,10 +285,11 @@ and my arms are free-range eggs
 that Nat found hidden in the grass
  
 My blood is salad dressing
-lemons thrown by the kids next door
-We're made of this land
+from lemons thrown over the fence by the kids next door
+Yep, we're made of this land
 rain, sun, soil and sand
-from our hair to our feet on the floor
+from the crowns of our heads 
+to our feet on the floor
 `},
 {title: 'Raglan with Chloe',
 html: `
@@ -297,8 +298,8 @@ on smooth wet sand
 pipe breaking fast
 as their slop slips past
 
-The sea here is smoother than elsewhere
-Softer
+The sea here is smoother than elsewhere,
+softer
 A distant wheen of sunset bagpipes
 The sea stills us
 
@@ -307,11 +308,6 @@ I'm glad to be back here
 This time with deeper friendship
 a lot more love
 a lot less fear
-
-a lot more care
-and gentleness
-as we slowly prepare
-for twelve more mad city months
 
 I can't flourish alone
 I need friendship and company
