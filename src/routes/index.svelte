@@ -17,6 +17,7 @@
 <style>
   a {
     font-size: 1.8em;
+    text-underline-offset: 5px;
   }
 </style>
 
