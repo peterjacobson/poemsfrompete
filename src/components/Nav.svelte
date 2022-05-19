@@ -1,5 +1,14 @@
 <script>
 	export let segment;
+  let fullScreen = false
+  function toggleFullscreen() {
+    if (fullScreen) {
+      document.exitFullscreen()
+    } else {
+      document?.querySelector("html")?.requestFullscreen()
+    }
+    fullScreen = !fullScreen
+  }
 </script>
 
 <style>
@@ -62,7 +71,9 @@
     </li>
     <!-- <li><a aria-current="{segment === 'about' ? 'page' : undefined}" href="about">about</a></li>  -->
   </ul>
-  ☀
+  <span on:click={toggleFullscreen}>
+    ☀
+  </span>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   ☾ 
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
